@@ -22,7 +22,7 @@ public class Aluno {
 	private String email;
 	
 	@OneToMany(mappedBy = "aluno")
-	private List<Boleto> boleto;
+	private List<Boleto> boletos;
 	
 	
 	@ManyToMany
@@ -51,7 +51,7 @@ public class Aluno {
 	}
 
 	public List<Boleto> getBoleto() {
-		return boleto;
+		return boletos;
 	}
 
 	public void setMatricula(Integer matricula) {
@@ -70,8 +70,8 @@ public class Aluno {
 		this.email = email;
 	}
 
-	public void setBoleto(List<Boleto> boleto) {
-		this.boleto = boleto;
+	public void setBoleto(List<Boleto> boletos) {
+		this.boletos = boletos;
 	}
 
 	

@@ -1,7 +1,6 @@
 package br.com.aluno.paulo.testes;
 
 import javax.persistence.*;
-
 import br.com.aluno.paulo.entidade.Aluno;
 
 public class Main {
